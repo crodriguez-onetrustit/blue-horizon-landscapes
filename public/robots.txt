@@ -1,0 +1,34 @@
+# Blue Horizon Landscapes - Robots.txt
+# Enhanced SEO Package
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://bluehorizonlandscapes.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Block common non-public directories
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*.json$
+Disallow: /admin
+
+# Prefer HTTPS
+Host: https://bluehorizonlandscapes.com
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /images/
+User-agent: AdsBot-Google
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+User-agent: msnbot
+Allow: /
